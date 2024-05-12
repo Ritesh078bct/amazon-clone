@@ -70,7 +70,7 @@ function updateCartQuantity() {
   });
   document.querySelector("#cart-quantity").innerHTML = cartQuantity;
 }
-
+updateCartQuantity();
 document.querySelectorAll("#add-to-cart").forEach((button) => {
   button.addEventListener("click", () => {
     let productId = button.dataset.productId;

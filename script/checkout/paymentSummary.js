@@ -49,6 +49,9 @@ export function renderPaymentSummary() {
                 <div>Order total:</div>
                 <div class="payment-summary-money">$${formatMoney(totalPriceCents)}</div>
                 </div>
+                <button class="place-order-button button-primary">
+                Place your order
+              </button>
         `;
 
         document.querySelector(".js-payment-summary").innerHTML=paymentSummaryHtml;
